@@ -1,5 +1,7 @@
 # Magento Coding Standard
 
+**NOTE: Vaimo fork of new coding standards repository, no changes to be made to this repository other than tagging the TIP of the module!!!**
+
 A set of Magento rules for [PHP_CodeSniffer](https://github.com/squizlabs/PHP_CodeSniffer) tool.
 
 ### Installation
