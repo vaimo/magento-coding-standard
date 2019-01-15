@@ -1,5 +1,5 @@
 {
-    "name": "magento/magento-coding-standard",
+    "name": "vaimo/magento-coding-standard",
     "description": "A set of Magento specific PHP CodeSniffer rules.",
     "license": [
         "OSL-3.0",
@@ -15,9 +15,5 @@
     },
     "config": {
         "bin-dir": "bin"
-    },
-    "scripts": {
-        "post-install-cmd": "bin/phpcs --config-set installed_paths ../../..",
-        "post-update-cmd": "bin/phpcs --config-set installed_paths ../../.."
     }
 }
