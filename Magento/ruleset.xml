@@ -30,13 +30,6 @@
     <rule ref="Generic.CodeAnalysis.UselessOverridingMethod">
         <severity>6</severity>
     </rule>
-    <rule ref="Generic.Commenting.Fixme">
-        <severity>6</severity>
-        <type>warning</type>
-    </rule>
-    <rule ref="Generic.Commenting.Todo">
-        <severity>6</severity>
-    </rule>
     <rule ref="Generic.Functions.CallTimePassByReference">
         <severity>10</severity>
     </rule>
@@ -84,13 +77,11 @@
             <property name="lineLimit" value="120"/>
             <property name="absoluteLineLimit" value="120"/>
         </properties>
+        <type>warning</type>
         <severity>6</severity>
     </rule>
     <rule ref="Magento.Legacy.MageEntity">
         <severity>10</severity>
-    </rule>
-    <rule ref="Magento.Less">
-        <severity>6</severity>
     </rule>
     <rule ref="Magento.NamingConvention.InterfaceName">
         <severity>6</severity>
@@ -103,6 +94,9 @@
     </rule>
     <rule ref="Magento.PHP.DiscouragedFunction">
         <severity>8</severity>
+    </rule>
+    <rule ref="Magento.PHP.FinalImplementation">
+        <severity>10</severity>
     </rule>
     <rule ref="Magento.PHP.Goto">
         <severity>10</severity>
@@ -203,6 +197,10 @@
         <type>warning</type>
     </rule>
     <rule ref="Squiz.WhiteSpace.LogicalOperatorSpacing">
+        <severity>6</severity>
+        <type>warning</type>
+    </rule>
+    <rule ref="Squiz.Operators.ValidLogicalOperators">
         <severity>6</severity>
         <type>warning</type>
     </rule>
