@@ -3,14 +3,14 @@
  * Copyright © Magento. All rights reserved.
  * See COPYING.txt for license details.
  */
-namespace Magento\Tests\Classes;
+namespace Magento\Tests\SQL;
 
 use PHP_CodeSniffer\Tests\Standards\AbstractSniffUnitTest;
 
 /**
- * Class ObjectManagerUnitTest
+ * Class RawQueryUnitTest
  */
-class ObjectManagerUnitTest extends AbstractSniffUnitTest
+class RawQueryUnitTest extends AbstractSniffUnitTest
 {
     /**
      * @inheritdoc
@@ -26,15 +26,16 @@ class ObjectManagerUnitTest extends AbstractSniffUnitTest
     public function getWarningList()
     {
         return [
-            3 => 1,
-            5 => 1,
-            7 => 1,
-            9 => 1,
-            12 => 1,
-            14 => 1,
-            16 => 1,
-            20 => 1,
-            23 => 1,
+            18 => 1,
+            35 => 1,
+            44 => 1,
+            52 => 1,
+            59 => 1,
+            65 => 1,
+            80 => 1,
+            102 => 1,
+            106 => 1,
+            109 => 1,
         ];
     }
 }
